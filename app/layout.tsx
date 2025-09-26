@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { LanguageProvider } from "../context/LanguageContext";
+import Script from "next/script";
 
 // METADATA
 export const metadata: Metadata = {
@@ -11,11 +12,11 @@ export const metadata: Metadata = {
     title: "Umusare - Motorbike Deliveries, Safe Rides & Moving Trucks",
     description:
       "From small package deliveries by motorbike, to safe rides home with a sober driver, to reliable moving trucks — Umusare has you covered.",
-    url: "https://www.umusar.com",
+    url: "https://www.umusaree.com",
     siteName: "Umusare",
     images: [
       {
-        url: "https://www.umusar.com/UMUSARE.png", 
+        url: "https://www.umusaree.com/UMUSARE.png",
         width: 1200,
         height: 630,
         alt: "Umusare - Motorbike Deliveries, Safe Rides & Moving Trucks",
@@ -28,7 +29,7 @@ export const metadata: Metadata = {
     title: "Umusare - Motorbike Deliveries, Safe Rides & Moving Trucks",
     description:
       "Need a delivery, a safe ride home, or a moving truck? Umusare makes it easy, fast, and secure.",
-    images: ["https://www.umusar.com/UMUSARE.png"], 
+    images: ["https://www.umusaree.com/UMUSARE.png"],
   },
 };
 
@@ -38,7 +39,6 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  
   return (
     <html lang="en">
       <head>
@@ -50,52 +50,57 @@ export default function RootLayout({
           name="google-site-verification"
           content="ZVP3PoO1QjQdYrlRRf9m566B4Y0LauI67NgQTxMhk1U"
         />
-       <script
-  type="application/ld+json"
-  dangerouslySetInnerHTML={{
-    __html: JSON.stringify({
-      "@context": "https://schema.org",
-      "@type": "WebSite",
-      name: "Umusare",
-      url: "https://www.umusar.com",
-      description:
-        "Umusare offers motorbike deliveries, safe ride services with trusted drivers, and reliable moving trucks for households and businesses.",
-      publisher: {
-        "@type": "Organization",
-        name: "Umusare",
-        url: "https://www.umusar.com",
-        logo: {
-          "@type": "ImageObject",
-          url: "https://www.umusar.com/logo.png", 
-        },
-      },
-      potentialAction: {
-        "@type": "SearchAction",
-        target: "https://www.umusar.com/search?q={search_term_string}",
-        "query-input": "required name=search_term_string",
-      },
-    }),
-  }}
-/>
+        <link rel="alternate" href="https://www.umusaree.com/" hrefLang="en" />
+        <link
+          rel="alternate"
+          href="https://www.umusaree.com/rw/"
+          hrefLang="rw"
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              name: "Umusare",
+              url: "https://www.umusaree.com",
+              description:
+                "Umusare offers motorbike deliveries, safe ride services with trusted drivers, and reliable moving trucks for households and businesses.",
+              publisher: {
+                "@type": "Organization",
+                name: "Umusare",
+                url: "https://www.umusaree.com",
+                logo: {
+                  "@type": "ImageObject",
+                  url: "https://www.umusaree.com/logo.png",
+                },
+              },
+              potentialAction: {
+                "@type": "SearchAction",
+                target:
+                  "https://www.umusaree.com/search?q={search_term_string}",
+                "query-input": "required name=search_term_string",
+              },
+            }),
+          }}
+        />
       </head>
       <body suppressHydrationWarning={true}>
-        <LanguageProvider>
-          {children}
-        </LanguageProvider>
+        <LanguageProvider>{children}</LanguageProvider>
 
-        {/* Google Analytics via Script Component */}
-        {/* <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-HFVYEF0PS4"
+        {/* Google Analytics via next/script */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-895XJDYKRR"
           strategy="afterInteractive"
         />
-        <Script id="google-analytics" strategy="afterInteractive">
+        <Script id="ga-setup" strategy="afterInteractive">
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'G-HFVYEF0PS4');
+            gtag('config', 'G-895XJDYKRR');
           `}
-        </Script> */}
+        </Script>
       </body>
     </html>
   );

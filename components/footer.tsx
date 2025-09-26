@@ -50,7 +50,7 @@ export default function Footer() {
          
        
           <a
-            href="https://www.instagram.com/umusarea?igsh=MTdkcnllaWtsMDJneQ%3D%3D&utm_source=qr"
+            href="https://www.instagram.com/umusaree"
             target="_blank"
             rel="noopener noreferrer"
           >
