@@ -14,15 +14,15 @@ export const en = {
     retry: "Try again",
   },
   truckDescription:
-    "MoveIt truck is an on-demand moving service that connects you with reliable trucks whenever you need to transport heavy items, furniture, or household goods.",
+    "MoveIt Truck is Umusare’s on-demand moving service in Rwanda. Whether you’re in Kigali or across the country, you can book reliable trucks instantly to transport furniture, heavy goods, or household items safely and affordably.",
   Ordernow: "Order now",
   motorDescription:
-    "Pikipiki Express is an on-demand motor delivery service that makes it easy to send and receive items quickly across town.",
+    "Pikipiki Express is a fast motorbike delivery service in Rwanda. From small parcels to urgent packages, our riders make it easy to send and receive items quickly across town with real-time reliability.",
   introduction:
-    "Umusare is a smart on-demand platform that connects people with reliable transport and delivery services. Whether you need a motorbike to quickly deliver a parcel (Pikipiki Express), a truck to move furniture or heavy goods (moveIt truck), or a sober driver to take you home safely in your own car after drinking (Sober Driver), Umusare brings all these solutions into one simple app.",
+    "Umusare is Rwanda’s smart on-demand platform that connects people with trusted transport and delivery solutions. 🚀 Need a motorbike for a quick delivery (Pikipiki Express), a truck to move furniture or heavy goods (MoveIt Truck), or a sober driver to take you home safely after drinking (Sober Driver)? Umusare brings all these services together in one simple, reliable app designed for Rwanda.",
   driverDescription:
-    "Sober Driver is a driver-on-demand service designed for people who have been drinking and want to get home safely in their own cars. With a simple request, a professional sober driver comes to your location, drives you home using your car",
+    "Sober Driver is a life-saving service for anyone who has been drinking and wants to reach home safely in Rwanda. With one request, a professional sober driver comes to your location and drives you home using your own car, ensuring both your safety and your vehicle’s.",
   whatsappMessage: "Hi! I'm interested in this service of",
   joincomunnitydescription:
-    "Are you a motorbike or truck driver looking to earn more and grow your business? Umusare connects you with thousands of customers who need quick deliveries, moving services, or safe rides. By joining our platform, you get: Access to more customers every day Flexible working hours Fair and transparent earnings A trusted community of drivers 👉 Sign up today and start earning with Umusare!",
+    "🚴 Are you a motorbike or 🚚 truck driver in Rwanda looking to grow your income? Join Umusare and connect with thousands of customers who need deliveries, moving services, and safe rides every day. By joining our platform, you’ll enjoy: ✅ More daily customers ✅ Flexible working hours ✅ Fair and transparent earnings ✅ A trusted driver community. 👉 Sign up now and start earning more with Umusare!",
 };

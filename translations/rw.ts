@@ -1,7 +1,7 @@
 export const rw = {
   header: {
     applyFast: "Saba vuba",
-    logo: "Logo",
+    logo: "Ikirangantego",
   },
   languages: {
     en: "Icyongereza",
@@ -9,20 +9,20 @@ export const rw = {
     fr: "Igifaransa",
   },
   common: {
-    loading: "Birashakishwa...",
+    loading: "Birimo gushakisha...",
     error: "Habaye ikibazo",
     retry: "Ongera ugerageze",
   },
   Ordernow: "Saba nonaha",
   truckDescription:
-    "MoveIt truck ni serivisi yo gusaba imodoka itwara ibintu bikomeye cyangwa byinshi nk’imizigo, intebe, cyangwa ibikoresho byo mu rugo",
+    "🚚 MoveIt Truck ni serivisi yihuse yo kwimura ibintu mu Rwanda. Waba uri i Kigali cyangwa mu yindi ntara, ushobora guhamagara imodoka nini ikwizerwa yo gutwara ibintu bikomeye, intebe, ibikoresho byo mu rugo cyangwa ibicuruzwa byawe mu mutekano.",
   motorDescription:
-    "Pikipiki Express ni serivisi yo gutwara ibintu ukoresheje moto, igufasha kohereza no kwakira ibintu byihuse muri Kigali no mu tundi duce.",
+    "🏍️ Pikipiki Express ni serivisi yihuta yo kugeza ibintu ukoresheje moto mu Rwanda. Ikoreshwa cyane i Kigali no mu tundi duce, ikagufasha kohereza no kwakira udupariseli, impapuro, cyangwa ibicuruzwa byihuse kandi byizewe.",
   introduction:
-    "Umusare ni urubuga rw’ikoranabuhanga rukoresha porogaramu, rukahuza abantu na serivisi zizewe zo gutwara no kugeza ibintu aho bigomba kujya. Waba ukeneye moto yo kugeza ibintu byihuse (Pikipiki Express), imodoka nini yo kwimura intebe cyangwa ibindi biremereye (move it truck), cyangwa umushoferi ugutwara mu rugo neza ukoresheje imodoka yawe nyuma yo kunywa (sober driver), ibyo byose ubisanga muri porogaramu imwe.",
+    "✨ Umusare ni urubuga rw’ikoranabuhanga rigezweho mu Rwanda rihuza abantu na serivisi zizewe zo gutwara ibintu no kugenda mu mutekano. Waba ukeneye moto yo kugeza ibintu byihuse (Pikipiki Express), imodoka nini yo kwimura intebe n’ibiremereye (MoveIt Truck), cyangwa umushoferi ugutwara mu rugo ukoresheje imodoka yawe nyuma yo kunywa inzoga (Sober Driver) — byose ubisanga muri porogaramu imwe yoroshye gukoresha.",
   driverDescription:
-    "Sober Driver ni serivisi yo gusaba umushoferi igihe wanyweye inzoga kandi ushaka gutaha mu mutekano ukoresheje imodoka yawe. Ukoresha asaba serivisi, umushoferi wizewe akaza aho uri, akagutwara mu rugo akoresheje imodoka yawe.",
-  whatsappMessage: "Muraho! Nshaka gukoresha iyi serivisi ya ",
+    "🚖 Sober Driver ni serivisi igenewe abafashe ku nzoga bashaka gutaha mu rugo neza kandi mu mutekano mu Rwanda. Umushoferi w’umwuga uza aho uri, agutwara mu rugo akoresheje imodoka yawe, bigatuma ugenda utuje kandi imodoka yawe ikagera neza aho ugiye.",
+  whatsappMessage: "Muraho! Ndashaka gukoresha iyi serivisi ya ",
   joincomunnitydescription:
-    "Injira mu muryango w’abashoferi ba Umusare! Uri umushoferi wa moto cyangwa wa gari y’imizigo ushaka kongera akazi no kuzamura ubucuruzi bwawe? Umusare iguhuza n’abakiriya benshi bakeneye serivisi zitandukanye: gutanga ibintu byihuse, kwimura ibintu cyangwa gutahwa mu mutekano. Iyo winjiye kuri platforumu yacu, ubona: Abakiriya benshi buri munsi ,Amafaranga ataziguye kandi asobanutse Umuryango w’abashoferi b’inyangamugayo. Iyandikishe uyu munsi utangire kubona inyungu ukoresheje Umusare!",
+    "🙌 Injira mu muryango w’abashoferi ba **Umusare**! Niba uri umushoferi wa moto 🏍️ cyangwa wa gari y’imizigo 🚚 ushaka kongera amafaranga no kubona abakiriya benshi mu Rwanda, iyi ni amahirwe yawe. Umusare iguhuza n’abakiriya buri munsi bakeneye: • Gutwara ibintu byihuse • Serivisi zo kwimura ibintu n’intebe • Gutahwa mu mutekano n’abashoferi b’inzobere. 👉 Iyandikishe none, winjire mu muryango w’abashoferi bizewe, wunguke amafaranga menshi kandi ukore mu buryo bufite ubwigenge.",
 };
